@@ -34,7 +34,7 @@ app.post("/", function (request, response) {
 
   const options = {
     method: "POST",
-    auth: "austin1:440aad56fd63f1547f4b12179aa3d708-us10",
+    auth: "austin1:7cb716154df1dfcf40ab44406bf9e279-us10",
   };
 
   const mailchimpRequest = https.request(
@@ -69,5 +69,7 @@ app.listen(process.env.PORT || 3000, function () {
 });
 
 // api key 440aad56fd63f1547f4b12179aa3d708-us10
+
+// api key new 7cb716154df1dfcf40ab44406bf9e279-us10
 
 // audience id 9b998bd262
