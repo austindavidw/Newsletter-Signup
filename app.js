@@ -34,7 +34,7 @@ app.post("/", function (request, response) {
 
   const options = {
     method: "POST",
-    auth: "austin1:7cb716154df1dfcf40ab44406bf9e279-us10",
+    auth: "austin1:02c8502d328ad7353d9c8ae4d0240849-us10-us10",
   };
 
   const mailchimpRequest = https.request(
